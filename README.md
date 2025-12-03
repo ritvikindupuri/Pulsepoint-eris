@@ -4,15 +4,15 @@
 
 ---
 
-![PulsePoint ERIS Screenshot](https://storage.googleapis.com/aai-web-samples/apps/eris-screenshot.png)
 
-## 📖 Introduction
+
+##  Introduction
 
 PulsePoint ERIS is a modern, web-based application designed to streamline the operations of emergency response teams. It provides a centralized, role-based platform for every level of an emergency response organization, with intelligent features powered by Google's Gemini API. Dispatchers can log incoming calls with AI-assisted priority suggestions and location intelligence. EMTs can handle their assignments and accelerate reporting with an AI Scribe. Supervisors can manage team rosters, schedules, and generate AI-powered handover summaries. COOs can analyze operational performance, and Administrators can audit system activity.
 
 With its clean, role-based interface and real-time data updates, PulsePoint ERIS is built to perform under pressure, ensuring that critical information is always accurate, intelligent, and accessible.
 
-## ✨ Core Features
+##  Core Features
 
 PulsePoint ERIS provides a tailored experience for each role within an emergency response organization.
 
@@ -57,7 +57,7 @@ PulsePoint ERIS provides a tailored experience for each role within an emergency
 - **Responsive Design:** The layout is optimized for a seamless experience on desktops, tablets, and mobile devices.
 - **Dark & Light Mode:** A theme toggle to reduce eye strain, especially crucial for dispatchers working in low-light environments.
 
-## ✅ Product Backlog (Completed)
+##  Product Backlog (Completed)
 
 | Req | Story ID | User Story (short)                        | Prio | Pts | Status |
 |:---:|:--------:|:------------------------------------------|:----:|:---:|:------:|
@@ -84,7 +84,7 @@ PulsePoint ERIS provides a tailored experience for each role within an emergency
 | 10  | 10.01    | Dispatcher: End-of-day report             | Med  | 5   | **Done**   |
 |     | 10.02    | Dispatcher: AI trend insights             | Med  | 5   | **Done**   |
 
-## 💻 Technology Stack
+##  Technology Stack
 
 PulsePoint ERIS is a modern frontend application built with industry-standard technologies.
 
@@ -98,7 +98,7 @@ PulsePoint ERIS is a modern frontend application built with industry-standard te
     - **`gemini-2.5-flash-lite`:** Enables extremely low-latency text generation for the EMT's AI Scribe feature.
     - **`gemini-2.5-pro`:** Used for more complex analytical tasks, like generating deep operational insights for the End of Day report.
 
-## 🔮 Future Enhancements (Version 2+)
+##  Future Enhancements (Version 2+)
 
 -   **Real-Time Backend:** Replace the local state simulation with a true backend service (e.g., Node.js with WebSockets) for real-time data synchronization across all clients.
 -   **Mobile EMT Application:** Dedicated iOS/Android apps for even faster data entry and GPS integration in the field.
